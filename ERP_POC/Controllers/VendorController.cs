@@ -11,7 +11,9 @@ namespace ERP_POC.Controllers
 {
     public class VendorController : Controller
     {
-
+        /// <summary>
+        /// changes
+        /// </summary>
         private IUnitOfWork UOW;
 
         public VendorController(IUnitOfWork _UOW)
